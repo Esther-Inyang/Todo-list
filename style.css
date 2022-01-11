@@ -1,0 +1,126 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color:#7fffd4;
+}
+
+.todo-container{
+    width: 600px;
+    padding: 50px;
+    background-color: #f5f5f5;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.todoInput{
+    outline: none;
+    padding: 5px;
+    font-weight: 600;
+    font-size: 18px;
+    border: 2px solid gray;
+    vertical-align: middle;
+}
+
+.addBtn{
+    outline: none;
+    background-color: yellow;
+    font-weight: 600;
+    font-size: 22px;
+    cursor: pointer;
+    vertical-align: middle;
+    padding: 3px 10px;
+    border: 2px solid gray;
+    border-left: none;
+}
+
+.addBtn:hover{
+    background-color: #7fffd4;
+}
+
+.outPut{
+    width: 400px;
+    margin: 0 auto;
+    background-color: wheat;
+    border: 2px solid #06dbdb;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    display: none;
+}
+
+.outPut:empty{
+    display: none;
+}
+
+.instruction{
+    margin-bottom: 20px;
+    font-weight: 600;
+    color: red;
+    font-size: 18px;
+    text-shadow: 0px 0.5px #000000;
+    cursor: pointer;
+}
+
+.todo-list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.todo{
+    font-weight: 600;
+    font-size: 18px;
+    background-color: yellow;
+    padding: 5px;
+    border-top: 2px solid pink;
+    border-bottom: 2px solid pink;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 300px;
+    word-wrap: break-word;
+}
+
+.number,
+.deleteBtn{ 
+    background-color: white;
+    cursor: pointer;
+    padding: 7px 12px;
+    font-weight: 900;
+    border-radius: 5px;
+}
+
+.number{
+    border: 1.5px solid black;
+}
+
+.deleteBtn{
+    color: red;
+    border: 1.5px solid red;
+}
+
+.deleteBtn:hover{
+    background-color: rgb(253, 174, 163);
+}
+
+.para{
+    color: red;
+    font-weight: 600;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.nothing{
+    border: 1px solid red;
+}
+
+
+.nothing:empty{
+    display: none;
+}
+
+
+
+
